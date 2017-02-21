@@ -1,0 +1,189 @@
+/*reset-------------------------------------------*/
+body,div,dl,dt,dd,ul,ol,li,pre,h1,h2,h3,h4,h5,h6, 
+form,fieldset,input,textarea,p,blockquote,th,td { 
+  padding: 0; 
+  margin: 0; 
+} 
+table { 
+  padding: 0; 
+  border-collapse: collapse; 
+  border-spacing: 0; 
+} 
+fieldset,img { 
+  border: 0; 
+} 
+address,caption,cite,code,dfn,em,strong,th,var { 
+  font-weight: normal; 
+  font-style: normal; 
+} 
+ol,ul { 
+  list-style: none; 
+} 
+caption,th { 
+  text-align: left; 
+} 
+h2,h3,h4,h5,h6 { 
+  font-weight: normal; 
+  font-size: 100%; 
+} 
+q:before,q:after { 
+  content:”; 
+} 
+abbr,acronym { 
+  border: 0; 
+}
+a{
+  text-decoration:none;
+}
+h1{
+  font:normal normal normal 40px "华文行楷";
+  text-align:center;
+  text-shadow: 1px 1px 7px #999;
+}
+p{
+  text-align:left;
+}
+/*--reset-----------------------------------------*/
+
+/*通用属性----------------------------------------*/
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+	color: black;
+}
+/*------------------------------------------------*/
+
+/*-------------------------------------------------------------index.html--------*/
+/*------------顶层,内容层,脚注层————王海龙-------*/
+/*------------菜单层————代槿-------*/
+/*----顶层 start-----*/
+.index-div-header {	/*顶层框架*/
+	width: 100%;
+  	height: auto;
+	background: #FAFAFA;
+	float: none;
+	position: absolute; /*固定定位 固定页眉*/
+	top: 0px;
+}
+.index-div-header1 {	/*顶层居中框架*/
+	width: 1050px;
+	margin: 0px auto;
+}
+.index-div-login,.index-div-register{	/*登录,注册框架*/
+	width: 50px;
+	height: 30px;
+  	float: right;
+	font-size: 16px;
+	text-align: center;
+	vertical-align: center;
+}
+.index-div-login:hover,.index-div-register:hover {	/*登录,注册被选中后*/
+	border-top: 1px solid #00a650;	
+}
+/*------顶层 end--------*/
+
+/*------菜单层 start---------*/
+.index-div-menu {	/*菜单框架*/
+	width: 100%;
+  	height: 85px;
+	box-shadow: 1px 1px 1px #999;
+	box-sizing: content-box;
+	float: left;
+	position: relative; top: 31px;
+	background: #FFF;
+}
+.index-div-menu1 {	/*菜单居中框架*/
+	width: 1050px;
+	margin: 0px auto;
+	float: none;
+}
+#index-img-logo {	/*logo位置*/
+	width: 63px;
+	height: 60px;
+	float: right;
+	position: relative; top: 0px; right:50px;
+}
+.index-div-ulmain {	/*ul加入div控制位置*/
+	width: 800px;
+	height: 80px;
+	float: right;
+}
+#index-ul-mainNav {	/*菜单选项ul*/
+	/*position: absolute;
+	left: 470px;
+	top: 0;
+	width: 870px;
+	height: 80px;*/
+	list-style: none;
+}
+#index-ul-mainNav li {	/*菜单选项li*/
+	height: 80px;
+	padding: 0 28px;
+	float: left;
+	text-align: center;
+	font-size: 15px;
+	list-style: none;
+}
+#index-ul-mainNav li:hover {	/*菜单被选中后*/
+	border-top: 4px solid #00a650;	
+}
+#index-ul-mainNav li a {	/*菜单的超链接选项*/
+    display: block;
+    height: 76px;
+    line-height: 76px;
+    margin-left: 6px;
+}
+/*------菜单层 end--------*/
+
+/*------Banner层开始------*/
+.index-div-banner {		/*用于控制位置*/
+	position:relative;
+	top:33px;	
+}
+	/*使用外链引入
+		头部
+		<link rel="stylesheet" type="text/css" href="css/index-banner/pignose.parallaxslider.min.css" />	<!--banner引入 -->
+	*/
+/*------Banner层结束------*/
+
+
+/*------内容层开始---------*/
+.index-div-content{/*内容层框架*/
+	width: 100%;
+  	height: 800px;
+	background: #FFF;
+	box-shadow: 1px 1px 2px #999;
+}
+.index-div-content1{ /*内容层居中框架*/
+	width: 1050px;
+	margin: 0px auto;
+}
+/*------内容层结束-----------*/
+
+<<<<<<< HEAD
+/*------脚注层开始-------------*/
+.index-div-footer{/*脚注层框架*/
+	width: 100%;
+  	height: 50px;
+	background: #CCF;
+	box-shadow: 1px 1px 2px #999;
+}
+.index-div-content1{ /*脚注层居中框架*/
+	width: 1050px;
+	margin: 0px auto;
+}
+.index-div-footerTxt{
+	width: 500px;
+	margin: 0px auto;
+	font-size: 15px;
+	text-align: center;
+	position:relative;
+	top: 20px;
+}
+/*-------脚注层结束----------*/
+/*-----------------------------------------------index.html--------*/
+=======
+/*--index.html------------------------------------/
+>>>>>>> origin/master
